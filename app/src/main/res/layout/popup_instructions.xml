@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:elevation="8dp">
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Это инструкция по использованию приложения. Отметьте чекбокс, чтобы больше не показывать это сообщение."
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/dontShowAgainCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Больше не показывать" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ОК" />
+</LinearLayout>
